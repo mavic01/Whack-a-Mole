@@ -1,0 +1,45 @@
+body {
+    background-color: rgb(190, 115, 190);
+    margin: 30px;
+
+}
+
+h1{
+    font-style: italic;
+    color:rgb(44, 41, 3)
+}
+
+h2{
+    font-style: italic;
+    color:rgb(5, 5, 48)
+}
+.square{
+    height: 200px;
+    width: 200px;
+    border-style:solid;
+    border-color: black;
+    
+    
+}
+
+.grid {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    width: 619px;
+    height: 618px;
+    background-color:aqua;
+    
+    
+}
+
+
+.mole {
+    background-image: url('images/mole.png') ;  /*adding an image to a div*/
+    background-size: cover;
+}
+
+
+
+  
