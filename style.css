@@ -1,6 +1,15 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    min-width: 100px;
+    height: auto;
+}
+
 body {
     background-color: rgb(190, 115, 190);
-    margin: 30px;
 
 }
 
